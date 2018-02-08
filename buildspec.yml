@@ -21,4 +21,4 @@ phases:
       - echo "post building here..."
 artifacts:
   files:
-    - '**/
+    - '**/*'
