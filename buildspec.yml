@@ -8,7 +8,7 @@ phases:
       - node -v
       - npm install -g npm
       - npm -v
-      - npm install -g polymer-cli
+      - sudo npm install -g polymer-cli
   pre_build:
     commands:
       - echo Entered the pre_build phase...
