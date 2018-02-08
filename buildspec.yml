@@ -6,9 +6,7 @@ phases:
       - echo Entered the install phase...
       - npm -v
       - node -v
-      - npm install -g npm
-      - npm -v
-      - sudo npm install -g polymer-cli --unsafe-perm
+      - sudo npm install -g polymer-cli
   pre_build:
     commands:
       - echo Entered the pre_build phase...
@@ -23,6 +21,4 @@ phases:
       - echo "post building here..."
 artifacts:
   files:
-    - '**/*'
-
-
+    - '**/
