@@ -6,7 +6,10 @@ phases:
       - echo Entered the install phase...
       - npm -v
       - node -v
-      - sudo npm install -g polymer-cli --unsafe-perm
+      - npm install -g npm
+      - npm -v
+      - node -v
+      - sudo npm install -g polymer-cli
   pre_build:
     commands:
       - echo Entered the pre_build phase...
