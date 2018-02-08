@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "enter install phase"
+      - npm install -g polymer-cli
+artifacts:
+  files:
+    - '*/**'
+  discard-paths: yes
