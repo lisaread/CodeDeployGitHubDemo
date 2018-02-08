@@ -8,7 +8,6 @@ phases:
       - node -v
       - npm install -g npm
       - npm -v
-      - yarn global add polymer-cli
       - npm install -g polymer-cli --unsafe-perm
   pre_build:
     commands:
